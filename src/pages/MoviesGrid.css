@@ -1,0 +1,75 @@
+.container .title {
+  color: #fafaf9;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0 0;
+}
+
+.container .title {
+  text-align: left;
+  margin-left: 2.7rem;
+}
+
+.container h2 span {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #a78bfa;
+}
+
+.title .query-text {
+  color: #a78bfa;
+}
+
+.movies-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.movies-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 30%;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+
+  background-color: #18181b;
+}
+
+.movies-container div img {
+  max-width: 100%;
+}
+
+.movies-container div img,
+.movies-container div h2,
+.movies-container div p {
+  margin-bottom: 0.5rem;
+}
+
+.movies-container div svg {
+  color: #f7d354;
+}
+
+.movies-container div a {
+  background-color: #7c3aed;
+  border: 1px solid #6d28d9;
+  color: #fafaf9;
+  
+  text-align: center;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+
+  border-radius: 0.5rem;
+
+  transition: 0.5s;
+}
+
+.movies-container div a:hover {
+  background-color: #5b21b6;
+}
